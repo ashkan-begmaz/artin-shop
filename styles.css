@@ -12,13 +12,22 @@ header {
 body {
   direction: rtl;
 }
+.header-wrrapper {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
 .top-header {
   height: 96px;
   width: 100%;
-  max-width: 1440px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 100px;
 }
 .logo {
   text-decoration: none;
@@ -76,4 +85,49 @@ body {
   height: 44px;
   width: 141px;
   border-radius: 7px;
+}
+.bottom-header {
+  height: 56px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 290px;
+  background-color: #f3f3f3;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #003f6280;
+}
+.nav-bar {
+  text-decoration: none;
+  font-family: Iranian Sans;
+  font-weight: 500;
+  font-size: 16px;
+  color: #272d4e;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  letter-spacing: 0px;
+}
+.main-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  height: 798px;
+}
+.top-main-info {
+  background-image: url(images/mainimage.png);
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.top-main {
+  height: 771px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-right-info {
+  display: flex;
 }
