@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body {
+  direction: rtl;
+}
+.top-header {
+  height: 96px;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  text-decoration: none;
+  font-family: Iranian Sans;
+  font-weight: 500;
+  font-size: 34px;
+  color: #7854f7;
+}
+.logo1 {
+  text-decoration: none;
+  font-family: Iranian Sans;
+  font-weight: 500;
+  font-size: 34px;
+  color: #272d4e;
+}
+.top-header-search-bar {
+  height: 56px;
+  width: 406px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  border-radius: 8px;
+}
+.search-img {
+  height: 24px;
+  width: 24px;
+}
+.top-header-search-bar1 {
+  border: medium none;
+  height: 48px;
+  width: 382px;
+  font-family: Iranian Sans;
+  font-size: 16px;
+  padding-right: 16px;
+}
+.login-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.user-login {
+  text-decoration: none;
+  font-family: Iranian Sans;
+  font-size: 16px;
+  color: black;
+}
+.buy-basket {
+  background-color: #ff4842;
+  cursor: pointer;
+  outline: medium none;
+  border: medium none;
+  height: 44px;
+  width: 141px;
+  border-radius: 7px;
+}
