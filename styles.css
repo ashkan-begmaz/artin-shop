@@ -31,14 +31,14 @@ body {
 }
 .logo {
   text-decoration: none;
-  font-family: Iranian Sans;
+  font-family: IranSansX;
   font-weight: 500;
   font-size: 34px;
   color: #7854f7;
 }
 .logo1 {
   text-decoration: none;
-  font-family: Iranian Sans;
+  font-family: IranSansX;
   font-weight: 500;
   font-size: 34px;
   color: #272d4e;
@@ -61,7 +61,7 @@ body {
   border: medium none;
   height: 48px;
   width: 382px;
-  font-family: Iranian Sans;
+  font-family: IranSansX;
   font-size: 16px;
   padding-right: 16px;
 }
@@ -73,7 +73,7 @@ body {
 }
 .user-login {
   text-decoration: none;
-  font-family: Iranian Sans;
+  font-family: IranSansX;
   font-size: 16px;
   color: black;
 }
@@ -99,7 +99,7 @@ body {
 }
 .nav-bar {
   text-decoration: none;
-  font-family: Iranian Sans;
+  font-family: IranSansX;
   font-weight: 500;
   font-size: 16px;
   color: #272d4e;
@@ -112,6 +112,7 @@ body {
   width: 100%;
   max-width: 1440px;
   height: 798px;
+  display: flex;
 }
 .top-main-info {
   background-image: url(images/mainimage.png);
@@ -130,4 +131,149 @@ body {
 }
 .main-right-info {
   display: flex;
+  flex-direction: column;
+}
+.right-info {
+  font-family: IranSansX;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 190px;
+  span {
+    color: #7854f7;
+  }
+}
+.shop-now {
+  height: 56px;
+  width: 215px;
+  background-color: #7854f7;
+  cursor: pointer;
+  outline: medium none;
+  border: medium none;
+  border-radius: 9px;
+  margin-top: 63px;
+  span {
+    font-family: IranSansX;
+    color: #ffffff;
+    font-weight: bold;
+  }
+}
+.products-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1220px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    color: #4a4a4a;
+    font-family: IranSansX;
+    font-size: 16px;
+  }
+  hr {
+    width: 100%;
+    margin-top: 19px;
+  }
+}
+.main-products {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  align-items: center;
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  row-gap: 55px;
+  margin-top: 32px;
+}
+.products-items {
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  width: 264px;
+  border: 1px solid;
+  padding: 21px;
+  border-radius: 8px;
+  align-items: center;
+  gap: 16px;
+  img {
+    height: 218px;
+    width: 220px;
+  }
+  h3 {
+    width: 100%;
+    font-family: IranSansX;
+    &:nth-child(3) {
+      text-align: left;
+    }
+  }
+}
+.stars {
+  height: 15px;
+  width: 220px;
+}
+.main-box {
+  margin-top: 56px;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+.section-wrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 1220px;
+  align-items: center;
+}
+.box {
+  height: 371px;
+  padding: 32px;
+  display: flex;
+  flex-direction: space-between;
+  width: 100%;
+  background: url(images/main-box.png),
+    linear-gradient(180deg, rgba(243, 57, 90, 1) 0%, rgba(185, 34, 65, 1) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: calc(100% - 22px) calc(100% - 0px), cover;
+  border-radius: 8px;
+  img {
+    height: 255px;
+    width: 291px;
+  }
+}
+.box1 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: 100%;
+  justify-content: center;
+  h1 {
+    font-family: IranSansX;
+    color: #ffffff;
+  }
+  h3 {
+    font-family: IranSansX;
+    color: #ffffff;
+  }
+  span {
+    font-family: IranSansX;
+    color: #ffffff;
+  }
+  button {
+    height: 44px;
+    width: 159px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    background: linear-gradient(
+      180deg,
+      rgba(243, 57, 90, 1) 0%,
+      rgba(185, 34, 65, 1) 100%
+    );
+  }
 }

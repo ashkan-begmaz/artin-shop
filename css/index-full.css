@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* Thin */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Regular), local('IranSansX Regular'),
+    url('../fonts/IRANSansX-Regular.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Regular.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Thin Italic */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Regular), local('IranSansX Regular'),
+    url('../fonts/IRANSansX-Regular.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Regular.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Light */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Regular), local('IranSansX Regular'),
+    url('../fonts/IRANSansX-Regular.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Regular.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Light Italic */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Regular), local('IranSansX Regular'),
+    url('../fonts/IRANSansX-Regular.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Regular.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Regular */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Regular), local('IranSansX Regular'),
+    url('../fonts/IRANSansX-Regular.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular Italic */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Regular), local('IranSansX Regular'),
+    url('../fonts/IRANSansX-Regular.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Regular), local('IranSansX Regular'),
+    url('../fonts/IRANSansX-Regular.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium Italic */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Regular), local('IranSansX Regular'),
+    url('../fonts/IRANSansX-Regular.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Bold), local('IRANSansX Bold'),
+    url('../fonts/IRANSansX-Bold.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Bold), local('IRANSansX Bold'),
+    url('../fonts/IRANSansX-Bold.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Black */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Bold), local('IRANSansX Bold'),
+    url('../fonts/IRANSansX-Bold.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Bold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Black Italic */
+@font-face {
+  font-family: 'IranSansX';
+  src: local(IRANSansX-Bold), local('IRANSansX Bold'),
+    url('../fonts/IRANSansX-Bold.woff2') format('woff2'),
+    url('../fonts/IRANSansX-Bold.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
