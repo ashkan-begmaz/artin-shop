@@ -1,0 +1,24 @@
+@media (max-width: 750px) {
+  header {
+    height: auto;
+    padding: 0px 16px;
+    .header-wrrapper {
+      height: auto;
+      width: 88px;
+    }
+    .top-header {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .bottom-header {
+      display: none;
+    }
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 88px;
+  }
+}
